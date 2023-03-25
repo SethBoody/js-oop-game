@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , h2 , button{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    background-color: #f6f6f6;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.preson{
+    width: 45%;
+    background-color: #ffff;
+    border: 1px solid #000;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center ;
+}
+
+.preson h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.progress{
+    background-color: #888;
+    height: 30px;
+}
+
+.progress span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+.preson img{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+.preson button{
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    margin: 20px;
+    font-size: 18px;
+}
